@@ -1,0 +1,29 @@
+USE TeachManagement
+GO
+UPDATE Enrollment SET Grade='85' WHERE Sno='40533123' AND
+Cno='050304'
+UPDATE Enrollment SET Grade='77' WHERE Sno='40533123' AND
+Cno='910201'
+UPDATE Enrollment SET Grade='69' WHERE Sno='40533099' AND
+Cno='050304'
+UPDATE Enrollment SET Grade='88' WHERE Sno='40533099' AND
+Cno='910201'
+UPDATE Enrollment SET Grade='75' WHERE Sno='40533103' AND
+Cno='050304'
+UPDATE Enrollment SET Grade='89' WHERE Sno='40533103' AND
+Cno='910201'
+UPDATE Enrollment SET Grade='84' WHERE Sno='40525009' AND
+Cno='050304'
+UPDATE Enrollment SET Grade='90' WHERE Sno='40525009' AND
+Cno='120509'
+UPDATE Enrollment SET Grade='79' WHERE Sno='40525009' AND
+Cno='910201'
+UPDATE Enrollment SET Grade='80' WHERE Sno='40525011' AND
+Cno='120509'
+UPDATE Enrollment SET Grade='72' WHERE Sno='40525011' AND
+Cno='910201'
+UPDATE Enrollment SET Grade='81' WHERE Sno='40525024' AND
+Cno='050304'
+UPDATE Enrollment SET Grade='83' WHERE Sno='40525024' AND
+Cno='120509'
+GO
